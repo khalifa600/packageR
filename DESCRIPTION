@@ -1,0 +1,17 @@
+Package: HessR
+Title: Application of Hess's Law to Chemical Reactions
+Version: 1.1.0
+Authors@R: person("Auteur", "HessR", role = c("aut", "cre"), email = "auteur@example.com")
+Description: Thermochemical calculation tools based on Hess's law. The package computes reaction enthalpies, manipulates and combines chemical equations, automatically solves for the combination coefficients, checks the atom balance, classifies reactions and produces colored energy diagrams, notably for combustion reactions. The function hess_run() runs the whole analysis in a single call.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Depends: R (>= 4.0.0)
+Imports:
+    ggplot2 (>= 3.4.0),
+    grid,
+    rlang
+Suggests:
+    testthat (>= 3.0.0)
+Roxygen: list(markdown = TRUE)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.1.1
